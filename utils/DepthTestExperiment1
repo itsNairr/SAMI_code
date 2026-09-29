@@ -1,0 +1,2 @@
+Experiment 1 was to  determine how accurate the RGBD camera is. Using a 3D printed block with slots of different width and depth, while programming the the camera so that where we move the mouse in the window on our computer, corresponds to objects depth it will meaure. 
+The team noticed that the camera was accurate to 1 mm. 
