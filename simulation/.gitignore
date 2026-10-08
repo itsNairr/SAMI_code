@@ -1,0 +1,8 @@
+# ROS / Python generated files
+__pycache__/
+*.pyc
+
+# Generated Clearpath launch files
+clearpath/sensors/launch/
+clearpath/platform/launch/
+clearpath/manipulators/launch/
