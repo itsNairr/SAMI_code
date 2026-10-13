@@ -6,7 +6,6 @@ Implements MicroStrain Inertial Protocol (MIP) packet communication over serial:
 - Stream configuration (decimation from 1000 Hz base clock)
 - High-rate packet parsing (Accelerometer, Gyroscope, Magnetometer, Euler angles, Quaternions)
 - Thread-safe streaming and callback dispatch
-- Export to ROS-compatible data formats (ready for sensor_msgs/Imu)
 """
 
 import math
