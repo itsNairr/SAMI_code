@@ -6,3 +6,7 @@ __pycache__/
 clearpath/sensors/launch/
 clearpath/platform/launch/
 clearpath/manipulators/launch/
+
+# Generated default Clearpath configuration folders
+clearpath/platform/
+clearpath/manipulators/
