@@ -29,3 +29,19 @@ sensors:
       parent: sensor_arch_mount
       xyz: [0.0, 0.0, 0.0]
       rpy: [0.0, 0.0, 0.0]
+
+  camera:
+    - model: intel_realsense
+      urdf_enabled: true
+      launch_enabled: true
+      parent: front_bumper_mount
+      xyz: [0.0, 0.0, 0.0]
+      rpy: [0.0, 0.0, 0.0]
+
+  imu:
+    - model: microstrain_imu
+      urdf_enabled: true
+      launch_enabled: true
+      parent: base_link
+      xyz: [0.0, 0.0, 0.0]
+      rpy: [0.0, 0.0, 0.0]

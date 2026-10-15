@@ -46,6 +46,18 @@
     <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
   </xacro:sick_lms1xx>
 
+  <!-- camera_0 -->
+  <xacro:include filename="$(find clearpath_sensors_description)/urdf/intel_realsense.urdf.xacro"/>
+  <xacro:intel_realsense name="camera_0" parent_link="front_bumper_mount" update_rate="30" image_height="480" image_width="640">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </xacro:intel_realsense>
+
+  <!-- imu_0 -->
+  <xacro:include filename="$(find clearpath_sensors_description)/urdf/microstrain_imu.urdf.xacro"/>
+  <xacro:microstrain_imu name="imu_0" parent_link="base_link" update_rate="100">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </xacro:microstrain_imu>
+
 
   <!-- Manipulators -->
 
