@@ -4,11 +4,13 @@ from rclpy.node import Node
 import pyrealsense2 as rs
 import numpy as np
 import cv2
-
+from std_msgs.msg import Float32
 
 class CameraNode(Node):
     def __init__(self):
         super().__init__('camera_node')
+        self.depth_publisher = self.create_publisher(Float32, 'dist_away', 10)
+        
 
         self.get_logger().info('Initializing RealSense camera...')
 
@@ -58,15 +60,18 @@ class CameraNode(Node):
 
             cv2.imshow('RealSense Camera', image)
             cv2.waitKey(1)
-
-            if distance_mm == 0:
-                self.get_logger().debug('No valid depth at centre point')
-            elif distance_mm < 150:
-                self.get_logger().info('Close')
-            elif distance_mm > 300:
-                self.get_logger().info('Far')
-            else:
-                self.get_logger().info('Middle')
+            if distance_mm > 0:
+                msg = Float32()
+                msg.data = float(distance_mm)
+                self.distance_publisher.publish(msg)
+            # if distance_mm == 0:
+            #     self.get_logger().debug('No valid depth at centre point')
+            # elif distance_mm < 150:
+            #     self.get_logger().info('Close')
+            # elif distance_mm > 300:
+            #     self.get_logger().info('Far')
+            # else:
+            #     self.get_logger().info('Middle')
 
         except RuntimeError as e:
             self.get_logger().error(f'RealSense frame error: {e}')
