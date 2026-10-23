@@ -17,7 +17,7 @@
   </xacro:bumper>
 
   <xacro:include filename="$(find clearpath_platform_description)/urdf/a200/attachments/bumper.urdf.xacro"/>
-  <xacro:bumper name="rear_bumper" model="default" parent_link="front_bumper_mount" extension="0.0">
+  <xacro:bumper name="rear_bumper" model="default" parent_link="rear_bumper_mount" extension="0.0">
     <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
   </xacro:bumper>
 
@@ -49,7 +49,13 @@
   <!-- camera_0 -->
   <xacro:include filename="$(find clearpath_sensors_description)/urdf/intel_realsense.urdf.xacro"/>
   <xacro:intel_realsense name="camera_0" parent_link="front_bumper_mount" update_rate="30" image_height="480" image_width="640">
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.02 0.0 0.05" rpy="0.0 0.0 0.0"/>
+  </xacro:intel_realsense>
+
+  <!-- camera_1 -->
+  <xacro:include filename="$(find clearpath_sensors_description)/urdf/intel_realsense.urdf.xacro"/>
+  <xacro:intel_realsense name="camera_1" parent_link="front_bumper_mount" update_rate="30" image_height="480" image_width="640">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.78539 0.0"/>
   </xacro:intel_realsense>
 
   <!-- imu_0 -->

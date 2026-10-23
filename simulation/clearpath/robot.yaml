@@ -38,7 +38,7 @@ sensors:
       urdf_enabled: true
       launch_enabled: true
       parent: front_bumper_mount
-      xyz: [0.0, 0.0, 0.05]
+      xyz: [-0.02, 0.0, 0.05]
       rpy: [0.0, 0.0, 0.0]
       ros_parameters:
         intel_realsense:
