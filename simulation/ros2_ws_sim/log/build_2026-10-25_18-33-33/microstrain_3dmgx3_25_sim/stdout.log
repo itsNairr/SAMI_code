@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating microstrain_3dmgx3_25_sim.egg-info
+writing microstrain_3dmgx3_25_sim.egg-info/PKG-INFO
+writing dependency_links to microstrain_3dmgx3_25_sim.egg-info/dependency_links.txt
+writing entry points to microstrain_3dmgx3_25_sim.egg-info/entry_points.txt
+writing requirements to microstrain_3dmgx3_25_sim.egg-info/requires.txt
+writing top-level names to microstrain_3dmgx3_25_sim.egg-info/top_level.txt
+writing manifest file 'microstrain_3dmgx3_25_sim.egg-info/SOURCES.txt'
+reading manifest file 'microstrain_3dmgx3_25_sim.egg-info/SOURCES.txt'
+writing manifest file 'microstrain_3dmgx3_25_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/microstrain_3dmgx3_25_sim/lib/python3.10/site-packages/microstrain-3dmgx3-25-sim.egg-link (link to .)
+Installing microstrain_node script to /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/microstrain_3dmgx3_25_sim/lib/microstrain_3dmgx3_25_sim
+
+Installed /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/build/microstrain_3dmgx3_25_sim
+running symlink_data
+creating /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/microstrain_3dmgx3_25_sim/share/ament_index
+creating /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/microstrain_3dmgx3_25_sim/share/ament_index/resource_index
+creating /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/microstrain_3dmgx3_25_sim/share/ament_index/resource_index/packages
+symbolically linking /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/build/microstrain_3dmgx3_25_sim/resource/microstrain_3dmgx3_25_sim -> /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/microstrain_3dmgx3_25_sim/share/ament_index/resource_index/packages
+symbolically linking /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/build/microstrain_3dmgx3_25_sim/package.xml -> /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/microstrain_3dmgx3_25_sim/share/microstrain_3dmgx3_25_sim
