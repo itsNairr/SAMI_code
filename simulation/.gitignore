@@ -10,3 +10,9 @@ clearpath/manipulators/launch/
 # Generated default Clearpath configuration folders
 clearpath/platform/
 clearpath/manipulators/
+clearpath/sensors/
+
+# Generated Clearpath robot description files
+robot.srdf
+robot.srdf.xacro
+robot.urdf.xacro
