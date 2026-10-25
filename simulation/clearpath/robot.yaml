@@ -22,6 +22,12 @@ platform:
       parent: default_mount
       model: sensor_arch_300
       enabled: true
+  extras:
+    ros_parameters:
+      twist_mux:  #Adds in a topic called cam_stop that will be used by the twist_mux - this topic is used to stop the husky when the depth camera detects something too close
+        topics.cam_stop.topic: cam_stop/cmd_vel
+        topics.cam_stop.timeout: 0.5
+        topics.cam_stop.priority: 20
 
 sensors:
   lidar2d:
@@ -62,3 +68,5 @@ sensors:
       parent: base_link
       xyz: [0.0, 0.0, 0.0]
       rpy: [0.0, 0.0, 0.0]
+      
+  
