@@ -18,7 +18,7 @@ class LidarSubscriber(Node):     # use the functionality of node
 
 
         #msgs.range - holds the distances (hyp of all the values) (meters)
-        #msgs.angle_min - hold the start angles
+        #msgs.angle_min - hold the start angles (which is -135 degrees,or  -2.356194496154785 )
         #msgs.agnle_increment - angle between measurents (rad)
         #angle_min is constant that is the starting angle, then we add angle_increment (0.5), 
         #times the measuremnet number away from the minimum
@@ -34,15 +34,13 @@ class LidarSubscriber(Node):     # use the functionality of node
         cartesian_coord[:,0]=distance*np.cos(angle) #x
         cartesian_coord[:,1]=distance*np.sin(angle) #y
 
-
-        self.get_logger().info(f'{msg.angle_min}')
         count=0
         for i in range(len(distance)):
-            if np.deg2rad(-5) < angle[i] < np.deg2rad(5):
-                if distance[i]<0.6:
+            if np.deg2rad(-2) < angle[i] < np.deg2rad(2):
+                if distance[i]<5:
                     count += 1
-
-        #self.get_logger().info(f'LiDAR Coordinates:{cartesian_coord[i]} Angle: {angle[i]}')
+                    self.get_logger().info(f'LiDAR Distance:{distance[i]} Angle: {angle[i]}')
+                    
         if count > 0:
             self.get_logger().info(f'Do not proceed')
         elif count == 0:
