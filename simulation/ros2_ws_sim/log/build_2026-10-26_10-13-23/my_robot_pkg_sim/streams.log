@@ -1,0 +1,24 @@
+[0.694s] Invoking command in '/home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/build/my_robot_pkg_sim': PYTHONPATH=/home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/build/my_robot_pkg_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/my_robot_pkg_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/build/my_robot_pkg_sim/build --no-deps symlink_data
+[0.852s] running develop
+[0.955s] running egg_info
+[0.955s] creating my_robot_pkg_sim.egg-info
+[0.955s] writing my_robot_pkg_sim.egg-info/PKG-INFO
+[0.955s] writing dependency_links to my_robot_pkg_sim.egg-info/dependency_links.txt
+[0.955s] writing entry points to my_robot_pkg_sim.egg-info/entry_points.txt
+[0.955s] writing requirements to my_robot_pkg_sim.egg-info/requires.txt
+[0.956s] writing top-level names to my_robot_pkg_sim.egg-info/top_level.txt
+[0.956s] writing manifest file 'my_robot_pkg_sim.egg-info/SOURCES.txt'
+[0.957s] reading manifest file 'my_robot_pkg_sim.egg-info/SOURCES.txt'
+[0.957s] writing manifest file 'my_robot_pkg_sim.egg-info/SOURCES.txt'
+[0.958s] running build_ext
+[0.959s] Creating /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/my_robot_pkg_sim/lib/python3.10/site-packages/my-robot-pkg-sim.egg-link (link to .)
+[0.959s] Installing camera_0 script to /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/my_robot_pkg_sim/lib/my_robot_pkg_sim
+[0.959s] 
+[0.959s] Installed /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/build/my_robot_pkg_sim
+[0.959s] running symlink_data
+[0.959s] creating /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/my_robot_pkg_sim/share/ament_index
+[0.960s] creating /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/my_robot_pkg_sim/share/ament_index/resource_index
+[0.960s] creating /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/my_robot_pkg_sim/share/ament_index/resource_index/packages
+[0.960s] symbolically linking /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/build/my_robot_pkg_sim/resource/my_robot_pkg_sim -> /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/my_robot_pkg_sim/share/ament_index/resource_index/packages
+[0.960s] symbolically linking /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/build/my_robot_pkg_sim/package.xml -> /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/my_robot_pkg_sim/share/my_robot_pkg_sim
+[1.094s] Invoked command in '/home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/build/my_robot_pkg_sim' returned '0': PYTHONPATH=/home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/build/my_robot_pkg_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/install/my_robot_pkg_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tobyc/Documents/MREN403/SAMI/simulation/ros2_ws_sim/build/my_robot_pkg_sim/build --no-deps symlink_data

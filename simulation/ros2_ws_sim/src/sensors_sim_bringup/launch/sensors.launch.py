@@ -18,9 +18,21 @@ def generate_launch_description():
             output="screen",
         ),
 
-        # Camera 0 (add once Camera_node_chloe_sim is done)
-
-        # Camera 1
+        # Camera 0 forward camera
+	Node(
+	    package="my_robot_pkg_sim",
+	    executable="camera_0",
+	    name="camera_0_node",
+	    parameters=[{
+		"use_sim_time": True,
+		"depth_topic": "/cpr_a200_0000/sensors/camera_0/depth/image",
+	    }],
+	    remappings=[
+		("too_close_stop/cmd_vel", "/cpr_a200_0000/too_close_stop/cmd_vel"),
+	    ],
+	    output="screen",
+	),
+        # Camera 1 downward camera
 
         # Lidar
     ])
