@@ -142,6 +142,9 @@ namespace LMS1xx_node
     laser_.login();
     cfg_ = laser_.getScanCfg();
     outputRange_ = laser_.getScanOutputRange();
+    RCLCPP_INFO(this->get_logger(), "Angular resolution: %d", outputRange_.angleResolution);
+    RCLCPP_INFO(this->get_logger(), "Scanning frequency: %d", cfg_.scanningFrequency);
+    RCLCPP_INFO(this->get_logger(), "Configured angular resolution: %d", cfg_.angleResolution);
 
     RCLCPP_INFO(this->get_logger(), "Connected to laser.");
     construct_scan();
@@ -155,25 +158,27 @@ namespace LMS1xx_node
     scan_msg_.range_max = 20.0;
     scan_msg_.scan_time = 100.0 / cfg_.scanningFrequency;
     scan_msg_.angle_increment =
-        static_cast<double>(outputRange_.angleResolution) / 10000.0 * DEG2RAD;
+        static_cast<double>(cfg_.angleResolution) / 10000.0 * DEG2RAD;
 
     scan_msg_.angle_min =
         (static_cast<double>(cfg_.startAngle) / 10000.0) * DEG2RAD - M_PI / 2;
     scan_msg_.angle_max = ((static_cast<double>(cfg_.stopAngle)) / 10000.0) * DEG2RAD - M_PI / 2;
 
     int angle_range = outputRange_.stopAngle - outputRange_.startAngle;
-    int num_values = angle_range / outputRange_.angleResolution;
+    int num_values = angle_range / cfg_.angleResolution;
 
-    if (angle_range % outputRange_.angleResolution == 0)
+    if (angle_range % cfg_.angleResolution == 0)
     {
       // Include endpoints
       ++num_values;
     }
 
+   //int num_values=541;
+
     scan_msg_.ranges.resize(num_values);
     scan_msg_.intensities.resize(num_values);
 
-    scan_msg_.time_increment = (outputRange_.angleResolution / 10000.0) / 360.0 /
+    scan_msg_.time_increment = (cfg_.angleResolution / 10000.0) / 360.0 /
                                (cfg_.scanningFrequency / 100.0);
   }
 

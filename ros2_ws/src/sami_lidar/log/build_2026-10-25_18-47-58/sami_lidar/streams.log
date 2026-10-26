@@ -1,0 +1,24 @@
+[0.888s] Invoking command in '/home/hanna/SAMI/ros2_ws/src/sami_lidar/build/sami_lidar': PYTHONPATH=/home/hanna/SAMI/ros2_ws/src/sami_lidar/build/sami_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hanna/SAMI/ros2_ws/src/sami_lidar/build/sami_lidar/build --no-deps symlink_data
+[1.082s] running develop
+[1.178s] running egg_info
+[1.178s] creating sami_lidar.egg-info
+[1.179s] writing sami_lidar.egg-info/PKG-INFO
+[1.179s] writing dependency_links to sami_lidar.egg-info/dependency_links.txt
+[1.179s] writing entry points to sami_lidar.egg-info/entry_points.txt
+[1.179s] writing requirements to sami_lidar.egg-info/requires.txt
+[1.179s] writing top-level names to sami_lidar.egg-info/top_level.txt
+[1.179s] writing manifest file 'sami_lidar.egg-info/SOURCES.txt'
+[1.180s] reading manifest file 'sami_lidar.egg-info/SOURCES.txt'
+[1.180s] writing manifest file 'sami_lidar.egg-info/SOURCES.txt'
+[1.182s] running build_ext
+[1.182s] Creating /home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/lib/python3.10/site-packages/sami-lidar.egg-link (link to .)
+[1.183s] Installing lidar_subscriber script to /home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/lib/sami_lidar
+[1.183s] 
+[1.183s] Installed /home/hanna/SAMI/ros2_ws/src/sami_lidar/build/sami_lidar
+[1.184s] running symlink_data
+[1.184s] creating /home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/share/ament_index
+[1.184s] creating /home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/share/ament_index/resource_index
+[1.184s] creating /home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/share/ament_index/resource_index/packages
+[1.184s] symbolically linking /home/hanna/SAMI/ros2_ws/src/sami_lidar/build/sami_lidar/resource/sami_lidar -> /home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/share/ament_index/resource_index/packages
+[1.184s] symbolically linking /home/hanna/SAMI/ros2_ws/src/sami_lidar/build/sami_lidar/package.xml -> /home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/share/sami_lidar
+[1.205s] Invoked command in '/home/hanna/SAMI/ros2_ws/src/sami_lidar/build/sami_lidar' returned '0': PYTHONPATH=/home/hanna/SAMI/ros2_ws/src/sami_lidar/build/sami_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hanna/SAMI/ros2_ws/src/sami_lidar/build/sami_lidar/build --no-deps symlink_data

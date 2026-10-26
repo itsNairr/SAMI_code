@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating sami_lidar.egg-info
+writing sami_lidar.egg-info/PKG-INFO
+writing dependency_links to sami_lidar.egg-info/dependency_links.txt
+writing entry points to sami_lidar.egg-info/entry_points.txt
+writing requirements to sami_lidar.egg-info/requires.txt
+writing top-level names to sami_lidar.egg-info/top_level.txt
+writing manifest file 'sami_lidar.egg-info/SOURCES.txt'
+reading manifest file 'sami_lidar.egg-info/SOURCES.txt'
+writing manifest file 'sami_lidar.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/lib/python3.10/site-packages/sami-lidar.egg-link (link to .)
+Installing lidar_subscriber script to /home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/lib/sami_lidar
+
+Installed /home/hanna/SAMI/ros2_ws/src/sami_lidar/build/sami_lidar
+running symlink_data
+creating /home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/share/ament_index
+creating /home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/share/ament_index/resource_index
+creating /home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/share/ament_index/resource_index/packages
+symbolically linking /home/hanna/SAMI/ros2_ws/src/sami_lidar/build/sami_lidar/resource/sami_lidar -> /home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/share/ament_index/resource_index/packages
+symbolically linking /home/hanna/SAMI/ros2_ws/src/sami_lidar/build/sami_lidar/package.xml -> /home/hanna/SAMI/ros2_ws/src/sami_lidar/install/sami_lidar/share/sami_lidar

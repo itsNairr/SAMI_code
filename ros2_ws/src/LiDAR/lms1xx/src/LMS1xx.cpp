@@ -223,7 +223,14 @@ scanOutputRange LMS1xx::getScanOutputRange() const
 
   write(socket_fd_, buf, strlen(buf));
 
-  read(socket_fd_, buf, 100);
+  //read(socket_fd_, buf, 100);
+  int len = read(socket_fd_, buf, 99);
+  if (len <= 0) {
+  RCLCPP_ERROR(logger_, "Failed to read output range");
+  return outputRange;
+  }
+  buf[len] = '\0';
+  RCLCPP_INFO(logger_, "Raw output range: %s", buf);
 
   uint32_t angleResolution, startAngle, stopAngle;
   sscanf(buf + 1, "%*s %*s %*d %X %X %X", &angleResolution,
@@ -363,6 +370,7 @@ void LMS1xx::parseScanData(char* buffer, scanData* data)
     sscanf(tok, "%X", &UnsignedNumberData);
     NumberData = (int32_t)UnsignedNumberData;
     RCLCPP_DEBUG(logger, "NumberData : %d", NumberData);
+    //RCLCPP_INFO(logger, "Channel type: %d, NumberData: %d", type, NumberData);
 
     if (type == 0)
     {
