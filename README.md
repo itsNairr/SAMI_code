@@ -89,6 +89,9 @@ subscriber only reads topics; it never sends drive commands. To run just the nod
 ros2 run sami sensor_subscriber
 ```
 
+See the [SAMI package README](ros2_ws/src/sami/README.md) for a test publisher
+example and future package plans.
+
 ## Drive with the keyboard
 
 Install the teleop package once:
