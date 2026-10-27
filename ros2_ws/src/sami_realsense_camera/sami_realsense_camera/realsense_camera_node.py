@@ -7,9 +7,9 @@ import cv2
 from std_msgs.msg import Float32
 from geometry_msgs.msg import Twist
 
-class CameraNode(Node):
+class RealSenseCameraNode(Node):
     def __init__(self):
-        super().__init__('camera_node')
+        super().__init__('realsense_camera')
         self.depth_publisher = self.create_publisher(Float32, 'dist_away', 10)
         self.stop_dist_publisher = self.create_publisher(Twist, 'too_close_stop/cmd_vel', 10)
         
@@ -93,7 +93,7 @@ def main(args=None):
     node = None
 
     try:
-        node = CameraNode()
+        node = RealSenseCameraNode()
         rclpy.spin(node)
     except KeyboardInterrupt:
         pass

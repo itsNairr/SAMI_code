@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>my_robot_pkg</name>
+  <name>sami_realsense_camera</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Intel RealSense distance and stop publisher for SAMI</description>
   <maintainer email="chloe@todo.todo">chloe</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

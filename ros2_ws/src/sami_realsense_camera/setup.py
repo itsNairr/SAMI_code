@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'my_robot_pkg'
+package_name = 'sami_realsense_camera'
 
 setup(
     name=package_name,
@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='chloe',
     maintainer_email='chloe@todo.todo',
-    description='TODO: Package description',
+    description='Intel RealSense distance and stop publisher for SAMI',
     license='TODO: License declaration',
     extras_require={
         'test': [
@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'camera = my_robot_pkg.camera_node:main',
+            'realsense_camera = sami_realsense_camera.realsense_camera_node:main',
         ],
     },
 )
