@@ -2,12 +2,12 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "Build SAMI subscriber and RealSense camera",
+			"label": "Build SAMI subscriber and forward RealSense camera",
 			"type": "shell",
 			"command": "bash",
 			"args": [
 				"-lc",
-				"source /opt/ros/humble/setup.bash && cd ros2_ws && colcon build --packages-select sami_realsense_camera sami --symlink-install"
+				"source /opt/ros/humble/setup.bash && cd ros2_ws && colcon build --packages-select sami_realsense_camera_forward sami --symlink-install"
 			],
 			"isBackground": false,
 			"problemMatcher": [],

@@ -38,8 +38,8 @@ ros2 topic pub -r 2 /sami_demo std_msgs/msg/String "{data: hello}"
 
 The subscriber should log that it is listening to `/sami_demo`, then print
 `data=hello`. The Intel RealSense publisher can be started separately with
-`ros2 run sami_realsense_camera realsense_camera` after building
-[sami_realsense_camera](../sami_realsense_camera/); it needs `pyrealsense2` and
+`ros2 run sami_realsense_camera_forward realsense_camera` after building
+[sami_realsense_camera_forward](../sami_realsense_camera_forward/); it needs `pyrealsense2` and
 camera hardware.
 
 ## Future

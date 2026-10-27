@@ -8,7 +8,7 @@ ROS 2 Humble workspace for the Clearpath Husky and its sensors.
 |------|-------------|
 | `ros2_ws/src/husky` | Husky ROS 2 packages (`husky_base`, `husky_control`, ...) |
 | `ros2_ws/src/microstrain_3dmgx3_25` | MicroStrain 3DM-GX3-25 IMU node |
-| `ros2_ws/src/sami_realsense_camera` | Intel RealSense distance and stop publisher |
+| `ros2_ws/src/sami_realsense_camera_forward` | Forward Intel RealSense distance and stop publisher |
 | `ros2_ws/src/sami` | SAMI sensor subscriber and launch entry point |
 | `simulation/` | Clearpath simulation config |
 | `utils/` | Standalone sensor utilities (RealSense, IMU) |
@@ -23,7 +23,7 @@ source install/setup.bash
 ```
 
 To build only the sensor subscriber and RealSense publisher, use
-`colcon build --packages-select sami sami_realsense_camera --symlink-install`
+`colcon build --packages-select sami sami_realsense_camera_forward --symlink-install`
 from `ros2_ws` instead of building the full workspace.
 
 ## Launch the Husky base
@@ -65,7 +65,7 @@ Start each publisher you want to monitor in another terminal with the workspace
 sourced. For the Intel RealSense distance publisher:
 
 ```bash
-ros2 run sami_realsense_camera realsense_camera
+ros2 run sami_realsense_camera_forward realsense_camera
 ```
 
 That camera node publishes `/dist_away` and `/too_close_stop/cmd_vel`; it does

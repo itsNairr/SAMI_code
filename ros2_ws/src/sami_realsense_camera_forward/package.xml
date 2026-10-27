@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>sami_realsense_camera</name>
+  <name>sami_realsense_camera_forward</name>
   <version>0.0.0</version>
-  <description>Intel RealSense distance and stop publisher for SAMI</description>
+  <description>Forward Intel RealSense distance and stop publisher for SAMI</description>
   <maintainer email="chloe@todo.todo">chloe</maintainer>
   <license>TODO: License declaration</license>
 

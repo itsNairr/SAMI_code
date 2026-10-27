@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'sami_realsense_camera'
+package_name = 'sami_realsense_camera_forward'
 
 setup(
     name=package_name,
@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='chloe',
     maintainer_email='chloe@todo.todo',
-    description='Intel RealSense distance and stop publisher for SAMI',
+    description='Forward Intel RealSense distance and stop publisher for SAMI',
     license='TODO: License declaration',
     extras_require={
         'test': [
@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'realsense_camera = sami_realsense_camera.realsense_camera_node:main',
+            'realsense_camera = sami_realsense_camera_forward.realsense_camera_node:main',
         ],
     },
 )
