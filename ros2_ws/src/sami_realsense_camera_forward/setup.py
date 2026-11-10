@@ -22,9 +22,11 @@ setup(
             'pytest',
         ],
     },
+
     entry_points={
         'console_scripts': [
-            'realsense_camera = sami_realsense_camera_forward.realsense_camera_node:main',
+            'camera = my_robot_pkg.camera_node:main',
+            'avoid = my_robot_pkg.person_avoidance',
         ],
     },
 )
