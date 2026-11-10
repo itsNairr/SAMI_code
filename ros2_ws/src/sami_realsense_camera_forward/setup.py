@@ -25,8 +25,8 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'camera = my_robot_pkg.camera_node:main',
-            'avoid = my_robot_pkg.person_avoidance',
+            'camera = sami_realsense_camera_forward.realsense_camera_node:main',
+            'avoid = sami_realsense_camera_forward.person_identify:main',
         ],
     },
 )

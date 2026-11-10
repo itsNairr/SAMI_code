@@ -1,0 +1,6 @@
+source;share/sami_realsense_camera_forward/hook/pythonpath.ps1
+source;share/sami_realsense_camera_forward/hook/pythonpath.dsv
+source;share/sami_realsense_camera_forward/hook/pythonpath.sh
+source;share/sami_realsense_camera_forward/hook/ament_prefix_path.ps1
+source;share/sami_realsense_camera_forward/hook/ament_prefix_path.dsv
+source;share/sami_realsense_camera_forward/hook/ament_prefix_path.sh
