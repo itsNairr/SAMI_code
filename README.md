@@ -92,6 +92,18 @@ ros2 run sami sensor_subscriber
 See the [SAMI package README](ros2_ws/src/sami/README.md) for a test publisher
 example and future package plans.
 
+## MicroStrain
+
+The MicroStrain 3DM-GX3-25 hardware node publishes `/imu/data`
+(`sensor_msgs/msg/Imu`) with orientation as a quaternion, angular velocity in
+rad/s, and acceleration in m/s^2. It also publishes `/imu/mag`
+(`sensor_msgs/msg/MagneticField`) with the magnetic field in tesla. The default
+requested sampling rate is 50 Hz, with messages labelled `imu_link`.
+
+See the [MicroStrain README](ros2_ws/src/microstrain_3dmgx3_25/README.md)
+for the published fields, timestamps, covariance values, unit-conversion
+equations, quaternion component ordering, and sampling-rate equation.
+
 ## Drive with the keyboard
 
 Install the teleop package once:
