@@ -1,0 +1,32 @@
+[1.179s] Invoking command in '/home/chloe/SAMI_code/ros2_ws/src/sami_realsense_camera_forward': PYTHONPATH=/home/chloe/SAMI_code/ros2_ws/src/build/sami_realsense_camera_forward/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chloe/SAMI_code/ros2_ws/src/install/sami_realsense_camera_forward/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sami_realsense_camera_forward build --build-base /home/chloe/SAMI_code/ros2_ws/src/build/sami_realsense_camera_forward/build install --record /home/chloe/SAMI_code/ros2_ws/src/build/sami_realsense_camera_forward/install.log --install-scripts $base/lib/sami_realsense_camera_forward --single-version-externally-managed install_data
+[1.469s] running egg_info
+[1.485s] writing ../build/sami_realsense_camera_forward/sami_realsense_camera_forward.egg-info/PKG-INFO
+[1.488s] writing dependency_links to ../build/sami_realsense_camera_forward/sami_realsense_camera_forward.egg-info/dependency_links.txt
+[1.489s] writing entry points to ../build/sami_realsense_camera_forward/sami_realsense_camera_forward.egg-info/entry_points.txt
+[1.490s] writing requirements to ../build/sami_realsense_camera_forward/sami_realsense_camera_forward.egg-info/requires.txt
+[1.490s] writing top-level names to ../build/sami_realsense_camera_forward/sami_realsense_camera_forward.egg-info/top_level.txt
+[1.522s] reading manifest file '../build/sami_realsense_camera_forward/sami_realsense_camera_forward.egg-info/SOURCES.txt'
+[1.572s] writing manifest file '../build/sami_realsense_camera_forward/sami_realsense_camera_forward.egg-info/SOURCES.txt'
+[1.572s] running build
+[1.572s] running build_py
+[1.574s] copying sami_realsense_camera_forward/realsense_camera_node.py -> /home/chloe/SAMI_code/ros2_ws/src/build/sami_realsense_camera_forward/build/lib/sami_realsense_camera_forward
+[1.575s] copying sami_realsense_camera_forward/person_identify.py -> /home/chloe/SAMI_code/ros2_ws/src/build/sami_realsense_camera_forward/build/lib/sami_realsense_camera_forward
+[1.576s] copying sami_realsense_camera_forward/__init__.py -> /home/chloe/SAMI_code/ros2_ws/src/build/sami_realsense_camera_forward/build/lib/sami_realsense_camera_forward
+[1.577s] running install
+[1.581s] running install_lib
+[1.604s] copying /home/chloe/SAMI_code/ros2_ws/src/build/sami_realsense_camera_forward/build/lib/sami_realsense_camera_forward/realsense_camera_node.py -> /home/chloe/SAMI_code/ros2_ws/src/install/sami_realsense_camera_forward/lib/python3.10/site-packages/sami_realsense_camera_forward
+[1.605s] copying /home/chloe/SAMI_code/ros2_ws/src/build/sami_realsense_camera_forward/build/lib/sami_realsense_camera_forward/person_identify.py -> /home/chloe/SAMI_code/ros2_ws/src/install/sami_realsense_camera_forward/lib/python3.10/site-packages/sami_realsense_camera_forward
+[1.606s] copying /home/chloe/SAMI_code/ros2_ws/src/build/sami_realsense_camera_forward/build/lib/sami_realsense_camera_forward/__init__.py -> /home/chloe/SAMI_code/ros2_ws/src/install/sami_realsense_camera_forward/lib/python3.10/site-packages/sami_realsense_camera_forward
+[1.609s] byte-compiling /home/chloe/SAMI_code/ros2_ws/src/install/sami_realsense_camera_forward/lib/python3.10/site-packages/sami_realsense_camera_forward/realsense_camera_node.py to realsense_camera_node.cpython-310.pyc
+[1.613s] byte-compiling /home/chloe/SAMI_code/ros2_ws/src/install/sami_realsense_camera_forward/lib/python3.10/site-packages/sami_realsense_camera_forward/person_identify.py to person_identify.cpython-310.pyc
+[1.613s] running install_data
+[1.613s] copying resource/sami_realsense_camera_forward -> /home/chloe/SAMI_code/ros2_ws/src/install/sami_realsense_camera_forward/share/ament_index/resource_index/packages
+[1.613s] copying package.xml -> /home/chloe/SAMI_code/ros2_ws/src/install/sami_realsense_camera_forward/share/sami_realsense_camera_forward
+[1.613s] running install_egg_info
+[1.635s] removing '/home/chloe/SAMI_code/ros2_ws/src/install/sami_realsense_camera_forward/lib/python3.10/site-packages/sami_realsense_camera_forward-0.0.0-py3.10.egg-info' (and everything under it)
+[1.638s] Copying ../build/sami_realsense_camera_forward/sami_realsense_camera_forward.egg-info to /home/chloe/SAMI_code/ros2_ws/src/install/sami_realsense_camera_forward/lib/python3.10/site-packages/sami_realsense_camera_forward-0.0.0-py3.10.egg-info
+[1.640s] running install_scripts
+[1.696s] Installing avoid script to /home/chloe/SAMI_code/ros2_ws/src/install/sami_realsense_camera_forward/lib/sami_realsense_camera_forward
+[1.697s] Installing camera script to /home/chloe/SAMI_code/ros2_ws/src/install/sami_realsense_camera_forward/lib/sami_realsense_camera_forward
+[1.698s] writing list of installed files to '/home/chloe/SAMI_code/ros2_ws/src/build/sami_realsense_camera_forward/install.log'
+[1.724s] Invoked command in '/home/chloe/SAMI_code/ros2_ws/src/sami_realsense_camera_forward' returned '0': PYTHONPATH=/home/chloe/SAMI_code/ros2_ws/src/build/sami_realsense_camera_forward/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chloe/SAMI_code/ros2_ws/src/install/sami_realsense_camera_forward/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sami_realsense_camera_forward build --build-base /home/chloe/SAMI_code/ros2_ws/src/build/sami_realsense_camera_forward/build install --record /home/chloe/SAMI_code/ros2_ws/src/build/sami_realsense_camera_forward/install.log --install-scripts $base/lib/sami_realsense_camera_forward --single-version-externally-managed install_data

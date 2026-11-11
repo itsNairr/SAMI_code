@@ -16,7 +16,12 @@ twist_mux:
       camera:
         topic   : too_close_stop/cmd_vel
         timeout : 0.5
-        priority: 20 
+        priority: 20
+      person:
+        topic   : person_stop/cmd_vel
+        timeout : 0.5
+        priority: 21 
+ 
     locks:
       e_stop:
         topic   : e_stop
