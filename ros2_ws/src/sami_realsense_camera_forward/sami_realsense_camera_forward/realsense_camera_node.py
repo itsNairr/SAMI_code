@@ -36,10 +36,6 @@ class RealSenseCameraNode(Node):
         # Align depth frames to the color frame
         self.align = rs.align(rs.stream.color)
 
-        # Initial mouse position
-        self.mouse_x = 320
-        self.mouse_y = 240
-
         # Update at approximately 30 FPS
         self.timer = self.create_timer(0.033, self.getDepth)
         print("hi")
@@ -59,47 +55,43 @@ class RealSenseCameraNode(Node):
 
             image = np.asanyarray(color_frame.get_data())
 
-            # get_distance returns metres; convert to millimetres
-            distance_mm = depth_frame.get_distance(
-                self.mouse_x, self.mouse_y
-            ) * 1000.0
             cv2.imshow('RealSense Camera', image)
             cv2.waitKey(1)
-            if distance_mm > 0:
-                dist_msg = Float32()
-                dist_msg.data = float(distance_mm)
-                self.depth_publisher.publish(dist_msg)
-
-                if distance_mm <= 500: #closer to objest than 0.5 meters stop
-                    #also now need to check if its a person or not
-                    stop_msg = Twist()
+            raw_depth_image = np.asanyarray(depth_frame.get_data())
+            #check if there is a pixel which is greater than 0 and less than 500
+            has_close_object = np.any((raw_depth_image > 0) & (raw_depth_image < 500))
+            if has_close_object:
+                #also now need to check if its a person or not
+                stop_msg = Twist()
+                #stop forward/back motion
+                stop_msg.linear.x = 0.0
+                #stop rotational motion
+                stop_msg.angular.z = 0.0
+                self.stop_dist_publisher.publish(stop_msg)
+                print("too close")
+                
+                person_present = self.person_detector.identify(image)
+                if person_present:
+                    stop_p_msg = Twist()
                     #stop forward/back motion
-                    stop_msg.linear.x = 0.0
+                    stop_p_msg.linear.x = 0.0
                     #stop rotational motion
-                    stop_msg.angular.z = 0.0
-                    self.stop_dist_publisher.publish(stop_msg)
-                    print("too close")
-                    
-                    person_present = self.person_detector.identify(image)
-                    if person_present:
-                        stop_p_msg = Twist()
-                        #stop forward/back motion
-                        stop_p_msg.linear.x = 0.0
-                        #stop rotational motion
-                        stop_p_msg.angular.z = 0.0
-                        self.stop_person_publisher.publish(stop_p_msg)
-                        print("Stop its a person")
-                    else:
-                        #trigger other code go around code
-                        #publish go to other program
-                        #for now we are just going to reverse a bit untill good
-                        stop_p_msg = Twist()
-                        #move backwards
-                        stop_p_msg.linear.x = -0.5
-                        #stop rotational motion
-                        stop_p_msg.angular.z = 0.0
-                        self.stop_person_publisher.publish(stop_p_msg)
-                        print("reverse away from object")
+                    stop_p_msg.angular.z = 0.0
+                    self.stop_person_publisher.publish(stop_p_msg)
+                    print("Stop its a person")
+                else:
+                    #trigger other code go around code
+                    #publish go to other program
+                    #for now we are just going to reverse a bit untill good
+                    stop_p_msg = Twist()
+                    #move backwards
+                    stop_p_msg.linear.x = -0.5
+                    #stop rotational motion
+                    stop_p_msg.angular.z = 0.0
+                    self.stop_person_publisher.publish(stop_p_msg)
+                    print("reverse away from object")
+
+
 
                     #so if it's a person stop  if not reverse untill it is farter than 0.5 then execute the move around part or add obstacle to the path there  
      
