@@ -17,13 +17,14 @@ twist_mux:
         topic   : too_close_stop/cmd_vel
         timeout : 0.5
         priority: 20
-      person:
-        topic   : person_stop/cmd_vel
-        timeout : 0.5
-        priority: 21 
+
  
     locks:
       e_stop:
         topic   : e_stop
         timeout : 0.0
         priority: 255
+      person:
+        topic   : person_stop/cmd_vel
+        timeout : 0.5
+        priority: 21 

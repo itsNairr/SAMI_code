@@ -5,6 +5,7 @@ import pyrealsense2 as rs
 import numpy as np
 import cv2
 from std_msgs.msg import Float32
+from std_msgs.msg import Bool
 from geometry_msgs.msg import Twist
 from . import person_identify
 
@@ -13,7 +14,7 @@ class RealSenseCameraNode(Node):
         super().__init__('realsense_camera')
         self.depth_publisher = self.create_publisher(Float32, 'dist_away', 10)
         self.stop_dist_publisher = self.create_publisher(Twist, 'too_close_stop/cmd_vel', 10)
-        self.stop_person_publisher = self.create_publisher(Twist, 'person_stop/cmd_vel', 10)
+        self.stop_person_publisher = self.create_publisher(Bool, 'person_stop/cmd_vel', 10)
         
         self.person_detector = person_identify.PersonIdentify()
         
@@ -72,29 +73,30 @@ class RealSenseCameraNode(Node):
                 
                 person_present = self.person_detector.identify(image)
                 if person_present:
-                    stop_p_msg = Twist()
+                    stop_p_msg = Bool()
                     #stop forward/back motion
-                    stop_p_msg.linear.x = 0.0
-                    #stop rotational motion
-                    stop_p_msg.angular.z = 0.0
+                    stop_p_msg.data = True
                     self.stop_person_publisher.publish(stop_p_msg)
                     print("Stop its a person")
                 else:
                     #trigger other code go around code
                     #publish go to other program
                     #for now we are just going to reverse a bit untill good
-                    stop_p_msg = Twist()
+                    stop_p_msg = Bool()
                     #move backwards
-                    stop_p_msg.linear.x = -0.5
-                    #stop rotational motion
-                    stop_p_msg.angular.z = 0.0
+                    stop_p_msg.data = True
                     self.stop_person_publisher.publish(stop_p_msg)
                     print("reverse away from object")
 
 
 
                     #so if it's a person stop  if not reverse untill it is farter than 0.5 then execute the move around part or add obstacle to the path there  
-     
+            else:
+                stop_p_msg = Bool()
+                #move backwards
+                stop_p_msg.data = False
+                self.stop_person_publisher.publish(stop_p_msg)
+                
         except RuntimeError as e:
             self.get_logger().error(f'RealSense frame error: {e}')
 

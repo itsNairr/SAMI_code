@@ -39,7 +39,7 @@ class LidarSubscriber(Node):     # use the functionality of node
             if np.deg2rad(-2) < angle[i] < np.deg2rad(2):
                 if distance[i]<1:
                     count += 1
-                    self.get_logger().info(f'LiDAR Distance:{distance[i]} Angle: {np.rad2deg(angle[i])}')
+                    #self.get_logger().info(f'LiDAR Distance:{distance[i]} Angle: {np.rad2deg(angle[i])}')
                     
         if count > 0:
             self.get_logger().info(f'Do not proceed')
