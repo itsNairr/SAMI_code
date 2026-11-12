@@ -60,3 +60,5 @@ In the future, we may investigate a different model which only tracks people so 
 
 Confidence is set to 0.7 which was chosen to minimise false positives and produced correct responses. Increasing the confidence further may result in misidentify a person as an object which could create safety hazards. 
 
+
+<img width="302" height="379" alt="image" src="https://github.com/user-attachments/assets/cd0d93af-6aff-4439-a05c-343f08a7c214" />
