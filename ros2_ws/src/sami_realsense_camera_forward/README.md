@@ -4,17 +4,24 @@ realsense_camera_node.py
 person_identify.py
 twist_mux.yaml
 ## One time installs:
+```bash
 Pip install inference
 Pip install pyrealsense2
+```
 ## Do every time:
 Source Ros2 in the SAMI directory
+```bash
 source /opt/ros/humble/setup.bash
+```
 Open terminal in the SAMI/ros2_ws directory run 
+```bash
 colcon build --packages-select sami_realsense_camera_forward
 source install/setup.bash
+```
 ## To run the program:
+```bash
 ros2 run sami_realsense_camera_forward camera
-
+```
 # Background information:
 The Clearpath A200 husky has a .yaml file called twist_mux located in husky control config folder path which chooses what speed command will be sent to the robot. 
 
