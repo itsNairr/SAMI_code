@@ -7,8 +7,7 @@ not drive the robot or publish a new topic. See
 [lidar_subscriber.py](sami_lidar/lidar_subscriber.py).
 
 These commands use `~/capstone`, the location of this checkout. Replace it
-with `~/SAMI` if that is where you cloned the repository. Set the LiDAR IP to
-match your device; the example below uses `192.168.1.3` on port `2111`.
+with `~/SAMI` if that is where you cloned the repository. Set the your device on the same subnet as the LiDAR IP. The LiDAR IP is `192.168.1.3` on port `2111`.
 
 ## Build once
 
