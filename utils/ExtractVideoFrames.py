@@ -3,6 +3,7 @@
 Usage: python3 utils/ExtractVideoFrames.py input.mp4 output_frames --interval 0.5
 Requires OpenCV (opencv-python).
 """
+#Gemini was used to develop this script 
 
 import argparse
 import math

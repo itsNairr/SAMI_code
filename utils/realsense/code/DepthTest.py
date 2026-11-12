@@ -1,3 +1,4 @@
+#Gemini was used to develop this script
 import pyrealsense2 as rs
 import numpy as np
 import cv2

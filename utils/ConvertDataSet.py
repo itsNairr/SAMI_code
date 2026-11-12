@@ -1,3 +1,4 @@
+#Gemini was used to develop the script 
 import cv2
 import os
 import random
