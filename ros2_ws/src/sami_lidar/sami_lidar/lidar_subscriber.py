@@ -3,6 +3,10 @@ import numpy as np
 from rclpy.node import Node
 from sensor_msgs.msg import LaserScan #message type that i published by LMS1xx
 from rclpy.qos import qos_profile_sensor_data #provides the communication settings 
+from geometry_msgs.msg import Twist
+from sensor_msgs.msg import PointCloud2
+from std_msgs.msg import Header
+
 
 #an attibute is a variable that belons to an object
 
@@ -14,17 +18,10 @@ class LidarSubscriber(Node):     # use the functionality of node
                                         # message type, topic name, function to run when the data arrives, communication settings 
         self.subscription=self.create_subscription(LaserScan, '/scan', 
                                                     self.scan_callback, qos_profile_sensor_data)
+        self.stop_dist_LiDAR_publisher = self.create_publisher(Twist, 'LiDAR_stop/cmd_vel', 10)
+        #self.depth_publisher = self.create_publisher(PointCloud2, 'LiDAR_points', 10)
+    
         #call self.scan_callback anytime new data arrives and give it the message 
-
-
-        #msgs.range - holds the distances (hyp of all the values) (meters)
-        #msgs.angle_min - hold the start angles (which is -135 degrees,or  -2.356194496154785 )
-        #msgs.agnle_increment - angle between measurents (rad)
-        #angle_min is constant that is the starting angle, then we add angle_increment (0.5), 
-        #times the measuremnet number away from the minimum
-        #example if 0 is the minimu, angle 4 would be 0+4*0.5= 2 degrees  
-
-    #the lidar starts at -135 degrees or -3pi/4 rad
 
     def scan_callback(self,msg):
         distance = np.array(msg.ranges)
@@ -33,6 +30,10 @@ class LidarSubscriber(Node):     # use the functionality of node
         cartesian_coord = np.zeros((len(distance), 2))
         cartesian_coord[:,0]=distance*np.cos(angle) #x
         cartesian_coord[:,1]=distance*np.sin(angle) #y
+
+        #points_3d = [[x, y, 0.0] for x, y in cartesian_coord]
+        #LiDAR_coord=PointCloud2()
+        #LiDAR_msg=LiDAR_coord.create_cloud_xyz32(header, points_3d)
 
         count=0
         for i in range(len(distance)):
@@ -43,6 +44,13 @@ class LidarSubscriber(Node):     # use the functionality of node
                     
         if count > 0:
             self.get_logger().info(f'Do not proceed')
+            #also now need to check if its a person or not
+            stop_msg = Twist()
+            #stop forward/back motion
+            stop_msg.linear.x = 0.0
+            #stop rotational motion
+            stop_msg.angular.z = 0.0
+            self.stop_dist_LiDAR_publisher.publish(stop_msg)
         elif count == 0:
             self.get_logger().info(f'Proceed')
         

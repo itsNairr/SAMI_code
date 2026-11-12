@@ -17,7 +17,10 @@ twist_mux:
         topic   : too_close_stop/cmd_vel
         timeout : 0.5
         priority: 20
-
+      LiDAR:
+        topic   : LiDAR_stop/cmd_vel
+        timeout : 0.5
+        priority: 19
  
     locks:
       e_stop:
