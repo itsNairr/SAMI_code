@@ -34,21 +34,43 @@ sensors:
     - model: sick_lms1xx
       urdf_enabled: true
       launch_enabled: true
-      parent: sensor_arch_mount
-      xyz: [0.0, 0.0, 0.0]
+      parent: top_plate_link
+      xyz: [0.3, 0.0, 0.1]
       rpy: [0.0, 0.0, 0.0]
+      ros_parameters:
+        lms1xx:
+          frame_id: sick_lidar_laser
+
+    - model: hokuyo_ust
+      urdf_enabled: true
+      launch_enabled: true
+      parent: top_plate_link
+      xyz: [-0.25, 0.0, 0.01]
+      rpy: [0.0, 0.0, 0.0]
+      ros_parameters:
+        urg_node:
+          laser_frame_id: hokuyo_lidar_laser
 
   camera:
     # Forward facing camera
     - model: intel_realsense
       urdf_enabled: true
       launch_enabled: true
-      parent: front_bumper_mount
-      xyz: [-0.02, 0.0, 0.05]
+      parent: sensor_arch_mount
+      xyz: [0.0, 0.0, -0.05]
       rpy: [0.0, 0.0, 0.0]
       ros_parameters:
         intel_realsense:
           camera_name: camera_0
+    # - model: intel_realsense
+    #   urdf_enabled: true
+    #   launch_enabled: true
+    #   parent: front_bumper_mount
+    #   xyz: [-0.02, 0.0, 0.05]
+    #   rpy: [0.0, 0.0, 0.0]
+    #   ros_parameters:
+    #     intel_realsense:
+    #       camera_name: camera_0
 
     # Downward facing camera
     - model: intel_realsense
@@ -69,4 +91,11 @@ sensors:
       xyz: [0.0, 0.0, 0.0]
       rpy: [0.0, 0.0, 0.0]
       
-  
+  gps:
+    - model: swiftnav_duro
+      urdf_enabled: true
+      launch_enabled: true
+      parent: sensor_arch_mount
+      xyz: [0.0, 0.0, 0.0]
+      rpy: [0.0, 0.0, 0.0]
+      
