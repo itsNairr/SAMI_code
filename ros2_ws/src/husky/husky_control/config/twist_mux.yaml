@@ -12,7 +12,7 @@ twist_mux:
       external:
         topic   : cmd_vel
         timeout : 0.5
-        priority: 22
+        priority: 5
       camera:
         topic   : too_close_stop/cmd_vel
         timeout : 0.5
@@ -30,4 +30,4 @@ twist_mux:
       person:
         topic   : person_stop/cmd_vel
         timeout : 0.5
-        priority: 21 
+        priority: 1
