@@ -109,6 +109,11 @@ class RealSenseCameraNode(Node):
                 pass
 
         cv2.destroyAllWindows()
+        #unlock the robot for next time
+        stop_p_msg = Bool()
+        #move backwards
+        stop_p_msg.data = False
+        self.stop_person_publisher.publish(stop_p_msg)
         super().destroy_node()
 
 
