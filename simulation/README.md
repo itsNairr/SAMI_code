@@ -40,6 +40,12 @@ source /opt/ros/humble/setup.bash
 ros2 launch clearpath_gz simulation.launch.py setup_path:=/$HOME/<path_to_repo>/SAMI_code/simulation/clearpath
 ```
 
+If using WSL run this commmand instead of above
+```bash
+source /opt/ros/humble/setup.bash
+LIBGL_ALWAYS_SOFTWARE=1 ros2 launch clearpath_gz simulation.launch.py  setup_path:=$HOME/<path_to_repo>/SAMI_code/simulation/clearpath
+```
+
 ## Run Gazebo Simulation Pier World
 ### Run the run_sim.sh file
 Run one time
