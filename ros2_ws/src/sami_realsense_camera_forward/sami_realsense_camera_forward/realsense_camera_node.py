@@ -1,6 +1,8 @@
 
 import rclpy
+from rclpy.duration import Duration
 from rclpy.node import Node
+from rclpy.signals import SignalHandlerOptions
 import pyrealsense2 as rs
 import numpy as np
 import cv2
@@ -101,24 +103,28 @@ class RealSenseCameraNode(Node):
             self.get_logger().error(f'RealSense frame error: {e}')
 
     def destroy_node(self):
-        # Stop the camera when the ROS node shuts down
-        if hasattr(self, 'pipe'):
-            try:
-                self.pipe.stop()
-            except RuntimeError:
-                pass
+        self.timer.cancel()
+        try:
+            if rclpy.ok():
+                # Release the lock while ROS communications are still available.
+                self.stop_person_publisher.publish(Bool(data=False))
+                # Wait for delivery acknowledgment before destroying the publisher.
+                if not self.stop_person_publisher.wait_for_all_acked(Duration(seconds=1.0)):
+                    self.get_logger().warning('Timed out waiting for unlock acknowledgment')
+        finally:
+            if hasattr(self, 'pipe'):
+                try:
+                    self.pipe.stop()
+                except RuntimeError:
+                    pass
 
-        cv2.destroyAllWindows()
-        #unlock the robot for next time
-        stop_p_msg = Bool()
-        #move backwards
-        stop_p_msg.data = False
-        self.stop_person_publisher.publish(stop_p_msg)
-        super().destroy_node()
+            cv2.destroyAllWindows()
+            super().destroy_node()
 
 
 def main(args=None):
-    rclpy.init(args=args)
+    # Let Python handle Ctrl+C so the unlock is sent before ROS shuts down.
+    rclpy.init(args=args, signal_handler_options=SignalHandlerOptions.NO)
     node = None
 
     try:
@@ -130,11 +136,12 @@ def main(args=None):
     except RuntimeError as e:
         print(f'Camera initialization/runtime error: {e}')
     finally:
-        if node is not None:
-            node.destroy_node()
-
-        if rclpy.ok():
-            rclpy.shutdown()
+        try:
+            if node is not None:
+                node.destroy_node()
+        finally:
+            if rclpy.ok():
+                rclpy.shutdown()
 
 
 if __name__ == '__main__':

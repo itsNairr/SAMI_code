@@ -12,7 +12,7 @@ twist_mux:
       external:
         topic   : cmd_vel
         timeout : 0.5
-        priority: 22
+        priority: 11 # Let camera stops and the person lock override external commands.
       camera:
         topic   : too_close_stop/cmd_vel
         timeout : 0.5
@@ -29,5 +29,5 @@ twist_mux:
         priority: 255
       person:
         topic   : person_stop/cmd_vel
-        timeout : 0.5
+        timeout : 0.0 # Keep the final unlock state after a graceful camera shutdown.
         priority: 21 
