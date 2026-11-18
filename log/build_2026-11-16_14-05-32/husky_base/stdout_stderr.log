@@ -1,0 +1,42 @@
+[35m[1mConsolidate compiler generated dependencies of target husky_hardware[0m
+[100%] Built target husky_hardware
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base//husky_hardware.xml
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/lib/libhusky_hardware.so
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/include/husky_base/horizon_legacy/Exception.h
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/include/husky_base/horizon_legacy/Logger.h
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/include/husky_base/horizon_legacy/Message.h
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/include/husky_base/horizon_legacy/Message_cmd.h
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/include/husky_base/horizon_legacy/Message_data.h
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/include/husky_base/horizon_legacy/Message_request.h
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/include/husky_base/horizon_legacy/Number.h
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/include/husky_base/horizon_legacy/Transport.h
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/include/husky_base/horizon_legacy/clearpath.h
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/include/husky_base/horizon_legacy/crc.h
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/include/husky_base/horizon_legacy/serial.h
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/include/husky_base/horizon_legacy_wrapper.h
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/include/husky_base/husky_diagnostics.h
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/include/husky_base/husky_hardware.hpp
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/launch/base.launch.py
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/environment/library_path.sh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/environment/library_path.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/ament_index/resource_index/package_run_dependencies/husky_base
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/ament_index/resource_index/parent_prefix_path/husky_base
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/environment/ament_prefix_path.sh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/environment/ament_prefix_path.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/environment/path.sh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/environment/path.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/local_setup.bash
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/local_setup.sh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/local_setup.zsh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/local_setup.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/package.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/ament_index/resource_index/packages/husky_base
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/husky_base
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/cmake/husky_baseConfig.cmake
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/cmake/husky_baseConfig-version.cmake
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_base/share/husky_base/package.xml

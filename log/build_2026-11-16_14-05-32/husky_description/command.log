@@ -1,0 +1,4 @@
+Invoking command in '/home/tobyc/Documents/MREN403/SAMI_code/build/husky_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tobyc/Documents/MREN403/SAMI_code/build/husky_description -- -j14 -l14
+Invoked command in '/home/tobyc/Documents/MREN403/SAMI_code/build/husky_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tobyc/Documents/MREN403/SAMI_code/build/husky_description -- -j14 -l14
+Invoking command in '/home/tobyc/Documents/MREN403/SAMI_code/build/husky_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tobyc/Documents/MREN403/SAMI_code/build/husky_description
+Invoked command in '/home/tobyc/Documents/MREN403/SAMI_code/build/husky_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tobyc/Documents/MREN403/SAMI_code/build/husky_description

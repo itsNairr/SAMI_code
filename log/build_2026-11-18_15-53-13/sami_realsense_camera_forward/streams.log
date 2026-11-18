@@ -1,0 +1,7 @@
+[2.080s] Invoking command in '/home/tobyc/Documents/MREN403/SAMI_code/build/sami_realsense_camera_forward': PYTHONPATH=/home/tobyc/Documents/MREN403/SAMI_code/build/sami_realsense_camera_forward/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tobyc/Documents/MREN403/SAMI_code/install/sami_realsense_camera_forward/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/tobyc/Documents/MREN403/SAMI_code/build/sami_realsense_camera_forward/build
+[2.477s] usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+[2.477s]    or: setup.py --help [cmd1 cmd2 ...]
+[2.477s]    or: setup.py --help-commands
+[2.478s]    or: setup.py cmd --help
+[2.478s] 
+[2.478s] error: option --uninstall not recognized

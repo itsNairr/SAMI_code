@@ -1,0 +1,26 @@
+[2.908s] Invoking command in '/home/tobyc/Documents/MREN403/SAMI_code/build/sami_navigation': PYTHONPATH=/home/tobyc/Documents/MREN403/SAMI_code/build/sami_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tobyc/Documents/MREN403/SAMI_code/install/sami_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tobyc/Documents/MREN403/SAMI_code/build/sami_navigation/build --no-deps symlink_data
+[3.443s] running develop
+[3.724s] running egg_info
+[3.724s] creating sami_navigation.egg-info
+[3.724s] writing sami_navigation.egg-info/PKG-INFO
+[3.724s] writing dependency_links to sami_navigation.egg-info/dependency_links.txt
+[3.725s] writing entry points to sami_navigation.egg-info/entry_points.txt
+[3.725s] writing requirements to sami_navigation.egg-info/requires.txt
+[3.725s] writing top-level names to sami_navigation.egg-info/top_level.txt
+[3.725s] writing manifest file 'sami_navigation.egg-info/SOURCES.txt'
+[3.728s] reading manifest file 'sami_navigation.egg-info/SOURCES.txt'
+[3.728s] writing manifest file 'sami_navigation.egg-info/SOURCES.txt'
+[3.731s] running build_ext
+[3.731s] Creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami_navigation/lib/python3.10/site-packages/sami-navigation.egg-link (link to .)
+[3.731s] 
+[3.731s] Installed /home/tobyc/Documents/MREN403/SAMI_code/build/sami_navigation
+[3.732s] running symlink_data
+[3.732s] creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami_navigation/share/ament_index
+[3.732s] creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami_navigation/share/ament_index/resource_index
+[3.732s] creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami_navigation/share/ament_index/resource_index/packages
+[3.732s] symbolically linking /home/tobyc/Documents/MREN403/SAMI_code/build/sami_navigation/resource/sami_navigation -> /home/tobyc/Documents/MREN403/SAMI_code/install/sami_navigation/share/ament_index/resource_index/packages
+[3.732s] symbolically linking /home/tobyc/Documents/MREN403/SAMI_code/build/sami_navigation/package.xml -> /home/tobyc/Documents/MREN403/SAMI_code/install/sami_navigation/share/sami_navigation
+[3.732s] creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami_navigation/share/sami_navigation/launch
+[3.732s] creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami_navigation/share/sami_navigation/config
+[3.732s] symbolically linking /home/tobyc/Documents/MREN403/SAMI_code/build/sami_navigation/config/nav2_params.yaml -> /home/tobyc/Documents/MREN403/SAMI_code/install/sami_navigation/share/sami_navigation/config
+[3.840s] Invoked command in '/home/tobyc/Documents/MREN403/SAMI_code/build/sami_navigation' returned '0': PYTHONPATH=/home/tobyc/Documents/MREN403/SAMI_code/build/sami_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tobyc/Documents/MREN403/SAMI_code/install/sami_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tobyc/Documents/MREN403/SAMI_code/build/sami_navigation/build --no-deps symlink_data

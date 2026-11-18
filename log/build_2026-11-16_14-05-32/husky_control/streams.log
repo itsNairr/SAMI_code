@@ -1,0 +1,36 @@
+[0.021s] Invoking command in '/home/tobyc/Documents/MREN403/SAMI_code/build/husky_control': AMENT_PREFIX_PATH=/home/tobyc/Documents/MREN403/SAMI_code/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tobyc/Documents/MREN403/SAMI_code/install/husky_description:/opt/ros/humble /usr/bin/cmake --build /home/tobyc/Documents/MREN403/SAMI_code/build/husky_control -- -j14 -l14
+[0.095s] Invoked command in '/home/tobyc/Documents/MREN403/SAMI_code/build/husky_control' returned '0': AMENT_PREFIX_PATH=/home/tobyc/Documents/MREN403/SAMI_code/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tobyc/Documents/MREN403/SAMI_code/install/husky_description:/opt/ros/humble /usr/bin/cmake --build /home/tobyc/Documents/MREN403/SAMI_code/build/husky_control -- -j14 -l14
+[0.097s] Invoking command in '/home/tobyc/Documents/MREN403/SAMI_code/build/husky_control': AMENT_PREFIX_PATH=/home/tobyc/Documents/MREN403/SAMI_code/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tobyc/Documents/MREN403/SAMI_code/install/husky_description:/opt/ros/humble /usr/bin/cmake --install /home/tobyc/Documents/MREN403/SAMI_code/build/husky_control
+[0.124s] -- Install configuration: ""
+[0.124s] -- Execute custom install script
+[0.125s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/control.yaml
+[0.154s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/empty.yaml
+[0.162s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/gazebo_interface.yaml
+[0.196s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/imu_filter.yaml
+[0.212s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/localization.yaml
+[0.241s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/public_interface.yaml
+[0.254s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/teleop_interactive_markers.yaml
+[0.273s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/teleop_logitech.yaml
+[0.303s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/teleop_ps4.yaml
+[0.329s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/twist_mux.yaml
+[0.344s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/launch/control.launch
+[0.377s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/launch/control.launch.py
+[0.385s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/launch/teleop.launch
+[0.398s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/launch/teleop_base.launch.py
+[0.416s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/launch/teleop_joy.launch.py
+[0.442s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/ament_index/resource_index/package_run_dependencies/husky_control
+[0.458s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/ament_index/resource_index/parent_prefix_path/husky_control
+[0.490s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/environment/ament_prefix_path.sh
+[0.523s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/environment/ament_prefix_path.dsv
+[0.536s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/environment/path.sh
+[0.545s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/environment/path.dsv
+[0.552s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/local_setup.bash
+[0.563s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/local_setup.sh
+[0.579s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/local_setup.zsh
+[0.589s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/local_setup.dsv
+[0.598s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/package.dsv
+[0.624s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/ament_index/resource_index/packages/husky_control
+[0.650s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/cmake/husky_controlConfig.cmake
+[0.657s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/cmake/husky_controlConfig-version.cmake
+[0.690s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/package.xml
+[0.749s] Invoked command in '/home/tobyc/Documents/MREN403/SAMI_code/build/husky_control' returned '0': AMENT_PREFIX_PATH=/home/tobyc/Documents/MREN403/SAMI_code/install/husky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tobyc/Documents/MREN403/SAMI_code/install/husky_description:/opt/ros/humble /usr/bin/cmake --install /home/tobyc/Documents/MREN403/SAMI_code/build/husky_control

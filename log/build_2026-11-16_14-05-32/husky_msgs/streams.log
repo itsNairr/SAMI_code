@@ -1,0 +1,149 @@
+[0.042s] Invoking command in '/home/tobyc/Documents/MREN403/SAMI_code/build/husky_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tobyc/Documents/MREN403/SAMI_code/build/husky_msgs -- -j14 -l14
+[1.583s] [35m[1mConsolidate compiler generated dependencies of target husky_msgs__rosidl_generator_c[0m
+[1.583s] [  6%] Built target husky_msgs__rs
+[1.583s] [  6%] Built target husky_msgs__cpp
+[1.583s] [  6%] Built target ament_cmake_python_symlink_husky_msgs
+[1.583s] [35m[1mConsolidate compiler generated dependencies of target husky_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.583s] [35m[1mConsolidate compiler generated dependencies of target husky_msgs__rosidl_typesupport_cpp[0m
+[1.583s] [35m[1mConsolidate compiler generated dependencies of target husky_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.583s] [ 15%] Built target husky_msgs__rosidl_generator_c
+[1.583s] [35m[1mConsolidate compiler generated dependencies of target husky_msgs__rosidl_typesupport_introspection_c[0m
+[1.584s] [35m[1mConsolidate compiler generated dependencies of target husky_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.584s] [35m[1mConsolidate compiler generated dependencies of target husky_msgs__rosidl_typesupport_c[0m
+[1.584s] [ 43%] Built target husky_msgs__rosidl_typesupport_introspection_cpp
+[1.584s] [ 43%] Built target husky_msgs__rosidl_typesupport_cpp
+[1.584s] [ 43%] Built target husky_msgs__rosidl_typesupport_fastrtps_cpp
+[1.584s] [ 53%] Built target husky_msgs__rosidl_typesupport_introspection_c
+[1.584s] [ 62%] Built target husky_msgs__rosidl_typesupport_c
+[1.584s] [ 71%] Built target husky_msgs__rosidl_typesupport_fastrtps_c
+[1.584s] [ 71%] Built target husky_msgs
+[1.584s] [ 75%] Built target husky_msgs__py
+[1.584s] [35m[1mConsolidate compiler generated dependencies of target husky_msgs__rosidl_generator_py[0m
+[1.584s] [ 81%] Built target husky_msgs__rosidl_generator_py
+[1.584s] [35m[1mConsolidate compiler generated dependencies of target husky_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.584s] [35m[1mConsolidate compiler generated dependencies of target husky_msgs__rosidl_typesupport_c__pyext[0m
+[1.585s] [35m[1mConsolidate compiler generated dependencies of target husky_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.585s] [ 87%] Built target husky_msgs__rosidl_typesupport_introspection_c__pyext
+[1.585s] [ 93%] Built target husky_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.585s] [100%] Built target husky_msgs__rosidl_typesupport_c__pyext
+[1.585s] running egg_info
+[1.585s] writing husky_msgs.egg-info/PKG-INFO
+[1.586s] writing dependency_links to husky_msgs.egg-info/dependency_links.txt
+[1.586s] writing top-level names to husky_msgs.egg-info/top_level.txt
+[1.586s] reading manifest file 'husky_msgs.egg-info/SOURCES.txt'
+[1.586s] writing manifest file 'husky_msgs.egg-info/SOURCES.txt'
+[1.586s] [100%] Built target ament_cmake_python_build_husky_msgs_egg
+[1.598s] Invoked command in '/home/tobyc/Documents/MREN403/SAMI_code/build/husky_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tobyc/Documents/MREN403/SAMI_code/build/husky_msgs -- -j14 -l14
+[1.601s] Invoking command in '/home/tobyc/Documents/MREN403/SAMI_code/build/husky_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tobyc/Documents/MREN403/SAMI_code/build/husky_msgs
+[1.627s] -- Install configuration: ""
+[1.627s] -- Execute custom install script
+[1.628s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/ament_index/resource_index/rosidl_interfaces/husky_msgs
+[1.628s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__functions.h
+[1.634s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__struct.h
+[1.643s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__type_support.h
+[1.653s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/husky_status.h
+[1.676s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.687s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/environment/library_path.sh
+[1.697s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/environment/library_path.dsv
+[1.720s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__rosidl_typesupport_fastrtps_c.h
+[1.753s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.785s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__builder.hpp
+[1.814s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__struct.hpp
+[1.829s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__traits.hpp
+[1.859s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__type_support.hpp
+[1.881s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/husky_status.hpp
+[1.893s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.920s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.930s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.958s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__rosidl_typesupport_introspection_c.h
+[1.965s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.993s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/include/husky_msgs/husky_msgs/msg/detail/husky_status__rosidl_typesupport_introspection_cpp.hpp
+[2.019s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/environment/pythonpath.sh
+[2.025s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/environment/pythonpath.dsv
+[2.034s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs-1.0.8-py3.10.egg-info/PKG-INFO
+[2.056s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs-1.0.8-py3.10.egg-info/SOURCES.txt
+[2.081s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs-1.0.8-py3.10.egg-info/dependency_links.txt
+[2.097s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs-1.0.8-py3.10.egg-info/top_level.txt
+[2.122s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/__init__.py
+[2.132s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/_husky_msgs_s.ep.rosidl_typesupport_c.c
+[2.145s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/_husky_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.154s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/_husky_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.159s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.166s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.171s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.180s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/libhusky_msgs__rosidl_generator_py.so
+[2.188s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/msg/__init__.py
+[2.197s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/msg/_husky_status.py
+[2.205s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/msg/_husky_status_s.c
+[2.216s] -- Up-to-date symlink: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.216s] -- Up-to-date symlink: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.217s] -- Up-to-date symlink: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.217s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/rust/Cargo.toml
+[2.226s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/rust/build.rs
+[2.235s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/rust/src/lib.rs
+[2.242s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/rust/src/msg.rs
+[2.250s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/rust/src/msg/rmw.rs
+[2.260s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/msg/HuskyStatus.idl
+[2.266s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/msg/HuskyStatus.msg
+[2.275s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/ament_index/resource_index/package_run_dependencies/husky_msgs
+[2.286s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/ament_index/resource_index/parent_prefix_path/husky_msgs
+[2.299s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/environment/ament_prefix_path.sh
+[2.312s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/environment/ament_prefix_path.dsv
+[2.320s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/environment/path.sh
+[2.333s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/environment/path.dsv
+[2.342s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/local_setup.bash
+[2.352s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/local_setup.sh
+[2.363s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/local_setup.zsh
+[2.370s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/local_setup.dsv
+[2.387s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/package.dsv
+[2.415s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/ament_index/resource_index/packages/husky_msgs
+[2.440s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/rosidl_cmake-extras.cmake
+[2.454s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.475s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.507s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.524s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.546s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.557s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.581s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[2.591s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/husky_msgsConfig.cmake
+[2.616s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/husky_msgsConfig-version.cmake
+[2.628s] -- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/package.xml
+[2.658s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_generator_c.so
+[2.659s] -- Set runtime path of "/home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_generator_c.so" to ""
+[2.659s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_fastrtps_c.so
+[2.660s] -- Set runtime path of "/home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.661s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.661s] -- Set runtime path of "/home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.661s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_introspection_c.so
+[2.662s] -- Set runtime path of "/home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.662s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_c.so
+[2.663s] -- Set runtime path of "/home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_c.so" to ""
+[2.665s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_introspection_cpp.so
+[2.670s] -- Set runtime path of "/home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.670s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_cpp.so
+[2.676s] -- Set runtime path of "/home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_cpp.so" to ""
+[2.751s] Listing '/home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs'...
+[2.751s] Compiling '/home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/__init__.py'...
+[2.751s] Listing '/home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/msg'...
+[2.751s] Compiling '/home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/msg/__init__.py'...
+[2.751s] Compiling '/home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/local/lib/python3.10/dist-packages/husky_msgs/msg/_husky_status.py'...
+[2.758s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_generator_py.so
+[2.758s] -- Set runtime path of "/home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/lib/libhusky_msgs__rosidl_generator_py.so" to ""
+[2.758s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_generator_cExport.cmake
+[2.759s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.759s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.759s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.759s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_generator_cppExport.cmake
+[2.760s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.761s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.761s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.761s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.761s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_cExport.cmake
+[2.762s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.762s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.763s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.763s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_cppExport.cmake
+[2.763s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.764s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_generator_pyExport.cmake
+[2.764s] -- Installing: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_msgs/share/husky_msgs/cmake/export_husky_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.771s] Invoked command in '/home/tobyc/Documents/MREN403/SAMI_code/build/husky_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tobyc/Documents/MREN403/SAMI_code/build/husky_msgs

@@ -1,0 +1,32 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/control.yaml
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/empty.yaml
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/gazebo_interface.yaml
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/imu_filter.yaml
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/localization.yaml
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/public_interface.yaml
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/teleop_interactive_markers.yaml
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/teleop_logitech.yaml
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/teleop_ps4.yaml
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/config/twist_mux.yaml
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/launch/control.launch
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/launch/control.launch.py
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/launch/teleop.launch
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/launch/teleop_base.launch.py
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/launch/teleop_joy.launch.py
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/ament_index/resource_index/package_run_dependencies/husky_control
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/ament_index/resource_index/parent_prefix_path/husky_control
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/environment/path.sh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/environment/path.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/local_setup.bash
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/local_setup.sh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/local_setup.zsh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/local_setup.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/package.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/ament_index/resource_index/packages/husky_control
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/cmake/husky_controlConfig.cmake
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/cmake/husky_controlConfig-version.cmake
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_control/share/husky_control/package.xml

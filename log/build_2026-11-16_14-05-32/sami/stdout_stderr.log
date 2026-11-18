@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing sami.egg-info/PKG-INFO
+writing dependency_links to sami.egg-info/dependency_links.txt
+writing entry points to sami.egg-info/entry_points.txt
+writing requirements to sami.egg-info/requires.txt
+writing top-level names to sami.egg-info/top_level.txt
+reading manifest file 'sami.egg-info/SOURCES.txt'
+writing manifest file 'sami.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami/lib/python3.10/site-packages/sami.egg-link (link to .)
+Installing sensor_subscriber script to /home/tobyc/Documents/MREN403/SAMI_code/install/sami/lib/sami
+
+Installed /home/tobyc/Documents/MREN403/SAMI_code/build/sami
+running symlink_data
+creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami/share/ament_index
+creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami/share/ament_index/resource_index
+creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami/share/ament_index/resource_index/packages
+symbolically linking /home/tobyc/Documents/MREN403/SAMI_code/build/sami/resource/sami -> /home/tobyc/Documents/MREN403/SAMI_code/install/sami/share/ament_index/resource_index/packages
+symbolically linking /home/tobyc/Documents/MREN403/SAMI_code/build/sami/package.xml -> /home/tobyc/Documents/MREN403/SAMI_code/install/sami/share/sami
+creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami/share/sami/launch
+symbolically linking /home/tobyc/Documents/MREN403/SAMI_code/build/sami/launch/sami.launch.py -> /home/tobyc/Documents/MREN403/SAMI_code/install/sami/share/sami/launch

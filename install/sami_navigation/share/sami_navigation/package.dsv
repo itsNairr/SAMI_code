@@ -1,0 +1,9 @@
+source;share/sami_navigation/hook/pythonpath.ps1
+source;share/sami_navigation/hook/pythonpath.dsv
+source;share/sami_navigation/hook/pythonpath.sh
+source;share/sami_navigation/hook/ament_prefix_path.ps1
+source;share/sami_navigation/hook/ament_prefix_path.dsv
+source;share/sami_navigation/hook/ament_prefix_path.sh
+source;../../build/sami_navigation/share/sami_navigation/hook/pythonpath_develop.ps1
+source;../../build/sami_navigation/share/sami_navigation/hook/pythonpath_develop.dsv
+source;../../build/sami_navigation/share/sami_navigation/hook/pythonpath_develop.sh

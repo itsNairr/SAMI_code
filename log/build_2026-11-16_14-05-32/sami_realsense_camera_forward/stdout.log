@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing sami_realsense_camera_forward.egg-info/PKG-INFO
+writing dependency_links to sami_realsense_camera_forward.egg-info/dependency_links.txt
+writing entry points to sami_realsense_camera_forward.egg-info/entry_points.txt
+writing requirements to sami_realsense_camera_forward.egg-info/requires.txt
+writing top-level names to sami_realsense_camera_forward.egg-info/top_level.txt
+reading manifest file 'sami_realsense_camera_forward.egg-info/SOURCES.txt'
+writing manifest file 'sami_realsense_camera_forward.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami_realsense_camera_forward/lib/python3.10/site-packages/sami-realsense-camera-forward.egg-link (link to .)
+Installing avoid script to /home/tobyc/Documents/MREN403/SAMI_code/install/sami_realsense_camera_forward/lib/sami_realsense_camera_forward
+Installing camera script to /home/tobyc/Documents/MREN403/SAMI_code/install/sami_realsense_camera_forward/lib/sami_realsense_camera_forward
+
+Installed /home/tobyc/Documents/MREN403/SAMI_code/build/sami_realsense_camera_forward
+running symlink_data
+creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami_realsense_camera_forward/share/ament_index
+creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami_realsense_camera_forward/share/ament_index/resource_index
+creating /home/tobyc/Documents/MREN403/SAMI_code/install/sami_realsense_camera_forward/share/ament_index/resource_index/packages
+symbolically linking /home/tobyc/Documents/MREN403/SAMI_code/build/sami_realsense_camera_forward/resource/sami_realsense_camera_forward -> /home/tobyc/Documents/MREN403/SAMI_code/install/sami_realsense_camera_forward/share/ament_index/resource_index/packages
+symbolically linking /home/tobyc/Documents/MREN403/SAMI_code/build/sami_realsense_camera_forward/package.xml -> /home/tobyc/Documents/MREN403/SAMI_code/install/sami_realsense_camera_forward/share/sami_realsense_camera_forward

@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/launch/view_model.launch
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/launch/view_model_launch.py
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/launch/view_robot.launch
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/launch/view_robot_launch.py
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/rviz/model.rviz
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/rviz/robot.rviz
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/rviz/test.rviz
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/ament_index/resource_index/package_run_dependencies/husky_viz
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/ament_index/resource_index/parent_prefix_path/husky_viz
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/environment/ament_prefix_path.sh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/environment/ament_prefix_path.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/environment/path.sh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/environment/path.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/local_setup.bash
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/local_setup.sh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/local_setup.zsh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/local_setup.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/package.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/ament_index/resource_index/packages/husky_viz
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/cmake/husky_vizConfig.cmake
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/cmake/husky_vizConfig-version.cmake
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_viz/share/husky_viz/package.xml

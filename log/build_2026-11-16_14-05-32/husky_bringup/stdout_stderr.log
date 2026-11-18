@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/config/mag_config_default.yaml
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/launch/accessories.launch.py
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/udev/10-microstrain.rules
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/udev/41-clearpath.rules
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/udev/41-hokuyo.rules
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/udev/41-logitech.rules
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/udev/52-ftdi.rules
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/udev/README.md
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/lib/husky_bringup/install
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/ament_index/resource_index/package_run_dependencies/husky_bringup
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/ament_index/resource_index/parent_prefix_path/husky_bringup
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/environment/path.sh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/environment/path.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/local_setup.bash
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/local_setup.sh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/local_setup.zsh
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/local_setup.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/package.dsv
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/ament_index/resource_index/packages/husky_bringup
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/cmake/husky_bringupConfig.cmake
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/cmake/husky_bringupConfig-version.cmake
+-- Symlinking: /home/tobyc/Documents/MREN403/SAMI_code/install/husky_bringup/share/husky_bringup/package.xml
