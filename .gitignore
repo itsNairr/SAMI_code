@@ -10,6 +10,8 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+install/
+log/
 
 # Operating system files
 .DS_Store
@@ -21,3 +23,5 @@ movie1.MOV
 movie2.MOV
 movie3.MOV
 movie4.MOV
+
+.vscode/
