@@ -7,7 +7,7 @@ from sensor_msgs.msg import Image                                    # SIM: adde
 from rclpy.qos import QoSProfile, QoSReliabilityPolicy, QoSHistoryPolicy  # SIM: added
 from std_msgs.msg import Float32
 from geometry_msgs.msg import Twist
-
+import time
 class CameraNode(Node):
     def __init__(self):
         super().__init__('camera_node')
@@ -80,6 +80,11 @@ class CameraNode(Node):
                     stop_msg = Twist()
                     #stop forward/back motion
                     stop_msg.linear.x = 0.0
+                    #stop rotational motion
+                    stop_msg.angular.z = 0.0
+                    self.stop_dist_publisher.publish(stop_msg)
+                    time.sleep(1)
+                    stop_msg.linear.x = -0.5
                     #stop rotational motion
                     stop_msg.angular.z = 0.0
                     self.stop_dist_publisher.publish(stop_msg)

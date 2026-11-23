@@ -19,7 +19,6 @@ class PersonIdentify:
         self.mask_annotator = sv.MaskAnnotator()
         self.label_annotator = sv.LabelAnnotator()
     def identify(self, depth_img, colour_img):
-        print("hi")
         #pre process mask anyhting further than 0.5m away
         depth_mask = (depth_img >0) & (depth_img <= 1000)#to set mask distance
         filtered_img = colour_img.copy()
