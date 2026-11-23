@@ -76,7 +76,7 @@ class CameraNode(Node):
                 dist_msg = Float32()
                 dist_msg.data = float(distance_mm)
                 self.depth_publisher.publish(dist_msg)
-                if distance_mm <= 1200: #closer to objest than 0.5 meters stop
+                if distance_mm <= 2000: #closer to objest than 0.5 meters stop
                     stop_msg = Twist()
                     #stop forward/back motion
                     stop_msg.linear.x = 0.0
