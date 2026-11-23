@@ -1,9 +1,0 @@
-source;share/microstrain_3dmgx3_25/hook/pythonpath.ps1
-source;share/microstrain_3dmgx3_25/hook/pythonpath.dsv
-source;share/microstrain_3dmgx3_25/hook/pythonpath.sh
-source;share/microstrain_3dmgx3_25/hook/ament_prefix_path.ps1
-source;share/microstrain_3dmgx3_25/hook/ament_prefix_path.dsv
-source;share/microstrain_3dmgx3_25/hook/ament_prefix_path.sh
-source;../../build/microstrain_3dmgx3_25/share/microstrain_3dmgx3_25/hook/pythonpath_develop.ps1
-source;../../build/microstrain_3dmgx3_25/share/microstrain_3dmgx3_25/hook/pythonpath_develop.dsv
-source;../../build/microstrain_3dmgx3_25/share/microstrain_3dmgx3_25/hook/pythonpath_develop.sh

@@ -1,1 +1,0 @@
-/home/tobyc/Documents/MREN403/SAMI_code/ros2_ws/src/husky/husky_base/include/husky_base/horizon_legacy/clearpath.h

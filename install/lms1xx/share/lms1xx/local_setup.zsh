@@ -1,1 +1,0 @@
-/home/tobyc/Documents/MREN403/SAMI_code/build/lms1xx/ament_cmake_environment_hooks/local_setup.zsh

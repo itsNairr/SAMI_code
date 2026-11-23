@@ -1,8 +1,0 @@
-source;share/lms1xx/hook/cmake_prefix_path.ps1
-source;share/lms1xx/hook/cmake_prefix_path.dsv
-source;share/lms1xx/hook/cmake_prefix_path.sh
-source;share/lms1xx/local_setup.bash
-source;share/lms1xx/local_setup.dsv
-source;share/lms1xx/local_setup.ps1
-source;share/lms1xx/local_setup.sh
-source;share/lms1xx/local_setup.zsh
