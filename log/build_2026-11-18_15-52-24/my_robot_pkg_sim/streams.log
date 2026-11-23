@@ -1,7 +1,0 @@
-[2.029s] Invoking command in '/home/tobyc/Documents/MREN403/SAMI_code/build/my_robot_pkg_sim': PYTHONPATH=/home/tobyc/Documents/MREN403/SAMI_code/build/my_robot_pkg_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tobyc/Documents/MREN403/SAMI_code/install/my_robot_pkg_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/tobyc/Documents/MREN403/SAMI_code/build/my_robot_pkg_sim/build
-[2.229s] usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
-[2.229s]    or: setup.py --help [cmd1 cmd2 ...]
-[2.229s]    or: setup.py --help-commands
-[2.229s]    or: setup.py cmd --help
-[2.229s] 
-[2.230s] error: option --uninstall not recognized
