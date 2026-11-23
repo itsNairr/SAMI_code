@@ -7,6 +7,7 @@ from sensor_msgs.msg import Image                                    # SIM: adde
 from rclpy.qos import QoSProfile, QoSReliabilityPolicy, QoSHistoryPolicy  # SIM: added
 from std_msgs.msg import Float32
 from geometry_msgs.msg import Twist
+from std_msgs.msg import Bool
 import time
 class CameraNode(Node):
     def __init__(self):
@@ -77,17 +78,22 @@ class CameraNode(Node):
                 dist_msg.data = float(distance_mm)
                 self.depth_publisher.publish(dist_msg)
                 if distance_mm <= 2000: #closer to objest than 0.5 meters stop
-                    stop_msg = Twist()
+                    print("stop")
+                    stop = Bool()
                     #stop forward/back motion
-                    stop_msg.linear.x = 0.0
+                    stop.data = True
+                    self.stop_person_publisher.publish(stop)
+                    self.stop_dist_publisher.publish(stop)
+                    
+                    time.sleep(2)
+                    print("now go")
+                    reverse.linear.x = -1.0
                     #stop rotational motion
                     stop_msg.angular.z = 0.0
                     self.stop_dist_publisher.publish(stop_msg)
-                    time.sleep(1)
-                    stop_msg.linear.x = -0.5
-                    #stop rotational motion
-                    stop_msg.angular.z = 0.0
-                    self.stop_dist_publisher.publish(stop_msg)
+                    time.sleep(3)
+                    print("done")
+
 
         except RuntimeError as e:
             self.get_logger().error(f'Depth frame error: {e}')

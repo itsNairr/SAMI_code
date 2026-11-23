@@ -25,9 +25,15 @@ platform:
   extras:
     ros_parameters:
       twist_mux:  #Adds in a topic called cam_stop that will be used by the twist_mux - this topic is used to stop the husky when the depth camera detects something too close
-        topics.cam_stop.topic: too_close_stop/cmd_vel
+        topics.cam_stop.topic: reverse/cmd_vel
         topics.cam_stop.timeout: 0.5
         topics.cam_stop.priority: 20
+
+        locks.cam_stop.topic: stop/cmd_vel
+        locks.cam_stop.timeout: 0.5
+        locks.cam_stop.priority: 21
+
+
 
 sensors:
   lidar2d:
