@@ -52,34 +52,35 @@ class RealSenseCameraNode(Node):
             has_close_object = np.any((depth_img > 0) & (depth_img < 1000))
             if has_close_object:
                 #also now need to check if its a person or not
-                stop_msg = Twist()
+                stop_p_msg = Bool()
                 #stop forward/back motion
-                stop_msg.linear.x = 0.0
-                #stop rotational motion
-                stop_msg.angular.z = 0.0
-                self.stop_dist_publisher.publish(stop_msg)
+                stop_p_msg.data = True
+                self.stop_person_publisher.publish(stop_p_msg)
                 print("too close")
-                
+    
                 person_present = self.person_detector.identify(depth_img, colour_img)
                 if person_present:
-                    stop_p_msg = Bool()
-                    #stop forward/back motion
-                    stop_p_msg.data = True
-                    self.stop_person_publisher.publish(stop_p_msg)
-                    print("Stop its a person")
+                    print("Stay stop its a person")
                 else:
                     #trigger other code go around code
                     #publish go to other program
                     #for now we are just going to reverse a bit untill good
                     stop_p_msg = Bool()
                     #move backwards
-                    stop_p_msg.data = True
+                    stop_p_msg.data = False
                     self.stop_person_publisher.publish(stop_p_msg)
                     print("reverse away from object")
-
+                    stop_msg = Twist()
+                    #stop forward/back motion
+                    stop_msg.linear.x = -0.3
+                    #stop rotational motion
+                    stop_msg.angular.z = 0.0
+                    self.stop_dist_publisher.publish(stop_msg)
+                    print("done reversing")
 
                     #so if it's a person stop  if not reverse untill it is farter than 0.5 then execute the move around part or add obstacle to the path there  
             else:
+                #if person has moved now unlock 
                 stop_p_msg = Bool()
                 #move backwards
                 stop_p_msg.data = False
