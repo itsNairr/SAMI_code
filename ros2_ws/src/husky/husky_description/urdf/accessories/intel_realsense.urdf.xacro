@@ -87,7 +87,7 @@
       </visual>
     </link>
     <joint type="fixed" name="${prefix}_realsense_lens_joint">
-      <origin xyz="0 0 0" rpy="0 0 0" />
+      <origin xyz="0.055335 0 0.71735" rpy="0 0 0" />
       <parent link="${parent_link}" />
       <child link="${prefix}_realsense_lens" />
     </joint>
